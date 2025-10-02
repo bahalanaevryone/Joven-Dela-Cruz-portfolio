@@ -3,68 +3,68 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Web Portfolio</title>
+  <title>Joven's Web Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header>
     <div class="container">
-      <h1>DELA CRUZ, JOVEN BENAVIDEZ</h1>
+      <h1>JOVEN BENAVIDEZ DELA CRUZ</h1>
       <nav>
         <a href="#about">About</a>
         <a href="#information">Information</a>
         <a href="#contact">Contact</a>
         <a href="#gallery">Gallery</a>
+        <a href="#activities">Activities</a> <!-- ✅ NEW LINK -->
       </nav>
     </div>
   </header>
 
   <section id="hero">
-    <div class="container">
-        <img src="img/IMG_174126935633F~2.jpg" alt="Profile Picture">
-        <h2>Hi, I'm a BSIT student</h2>
-        <p>I am from OMSC and currently a second-year student.</p>
+    <div class="container hero-content">
+        <img src="img/IMG_174126935633F~2.jpg" alt="Profile Picture" class="profile-pic">
+        <h2>Hello! I'm a BSIT Student</h2>
+        <p>Currently a second-year student at OMSC.</p>
     </div>
   </section>
 
   <section id="about" class="section">
     <div class="container">
       <h2>About Me</h2>
-      <p>I am Joven Dela Cruz, a student at OMSC, pursuing a BSIT degree. I live in Brgy. Tayamaan, GCFI Farm2, Mamburao. I enjoy coding in Java and mobile gaming. The Platform Technology subject has been crucial in helping me understand and work with various operating systems. It has also been essential in shaping my academic excellence, driving me towards my goals.</p>
+      <p>I'm Joven Dela Cruz, from Brgy. Tayamaan, GCFI Farm2, Mamburao. I'm passionate about Java programming and mobile games. Platform Technology has helped me understand OS environments, enhancing my academic journey.</p>
     </div>
   </section>
 
-  <section id="information">
+  <section id="information" class="section">
     <div class="container">
-        <h2>Information</h2>
+        <h2>Personal Information</h2>
         <ul>
             <li><strong>First Name:</strong> Joven</li>
             <li><strong>Last Name:</strong> Dela Cruz</li>
-            <li><strong>MI:</strong> Benavidez</li>
+            <li><strong>Middle Initial:</strong> Benavidez</li>
             <li><strong>Age:</strong> 19</li>
-            <li><strong>Birth:</strong> 01/29/2006</li>
-            <li><strong>Address:</strong> Brgy. Tayamaan GCFI Farm2 Mamburao, Occidental Mindoro</li>
+            <li><strong>Birth Date:</strong> 01/29/2006</li>
+            <li><strong>Address:</strong> Brgy. Tayamaan GCFI Farm2, Mamburao</li>
             <li><strong>Status:</strong> Single</li>
         </ul>
     </div>
   </section>
 
-  <section id="contact">
+  <section id="contact" class="section">
     <div class="container">
-        <h2>Contact Information</h2>
+        <h2>Contact Me</h2>
         <ul>
-            <li><strong>Phone:</strong> 09815689256</li>
+            <li><strong>Phone:</strong> 0981 568 9256</li>
             <li><strong>Email:</strong> delacruzjoven937@gmail.com</li>
             <li><strong>Facebook:</strong> Joven Dela Cruz</li>
         </ul>
     </div>
   </section>
 
-  <!-- Gallery Section -->
-  <section id="gallery">
+  <section id="gallery" class="section">
     <div class="container">
-      <h2>Activity Gallery</h2>
+      <h2>Gallery</h2>
       <div class="gallery-grid">
         <div class="gallery-item">
           <img src="img/activity1.jpg" alt="Activity 1">
@@ -82,6 +82,27 @@
     </div>
   </section>
 
+  <!-- ✅ NEW Activities Section -->
+  <section id="activities" class="section">
+    <div class="container">
+      <h2>My Activities</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="img/act1.jpg" alt="Activity 4">
+          <p>School Event</p>
+        </div>
+        <div class="gallery-item">
+          <img src="img/act2.jpg" alt="Activity 5">
+          <p>Group Project</p>
+        </div>
+        <div class="gallery-item">
+          <img src="img/act3.jpg" alt="Activity 6">
+          <p>Programming Workshop</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <footer>
     <div class="container">
       <nav>
@@ -89,6 +110,7 @@
         <a href="#information">Information</a>
         <a href="#contact">Contact</a>
         <a href="#gallery">Gallery</a>
+        <a href="#activities">Activities</a>
       </nav>
       <p>&copy; 2025 Joven Dela Cruz</p>
     </div>
